@@ -2,16 +2,21 @@
   {
     "op": "replace",
     "path": "/data/VAULTHOST",
-    "value": "https://vault-spi-vault.apps.appstudio-stage.x99m.p1.openshiftapps.com"
+    "value": "https://vault-spi-vault.apps.lc-dso-pac-494f-1.blueprints.rhecoeng.com"
   },
   {
     "op": "replace",
     "path": "/data/BASEURL",
-    "value": "https://spi-oauth-spi-system.apps.appstudio-stage.x99m.p1.openshiftapps.com"
+    "value": "https://spi-oauth-spi-system.apps.lc-dso-pac-494f-1.blueprints.rhecoeng.com"
   },
   {
     "op": "add",
     "path": "/data/SPIINSTANCEID",
     "value": "spi-dev"
+  },
+  {
+    "op": "add",
+    "path": "/data/VAULTINSECURETLS",
+    "value": "true"
   }
 ]
